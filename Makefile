@@ -3,6 +3,7 @@
 all:
 
 install:
+	mkdir -p ${DESTDIR}/usr/bin
 	touch ${DESTDIR}/usr/bin/xmlto
 	chmod 755 ${DESTDIR}/usr/bin/xmlto
 
